@@ -193,8 +193,6 @@ def load_pdf_document(file):
 
 def handle_upload():
     print ("### inside handle_upload")
-    import os
-    os.environ["OPENAI_API_KEY"] = "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"
 
     embeddings = OpenAIEmbeddings()
 
